@@ -109,6 +109,7 @@ body{
   height: 50px;
   padding: 15px 24px;
   color: #fff;
+  border-radius: 4px;
   background-color: #DAA520;
   transition: all .12s;
 }
@@ -137,7 +138,7 @@ body{
   right: 0;
 }
 
-/*section about-us */
+/* section about-us */
 
 .about-us{
   margin-top: 144px;
@@ -238,4 +239,58 @@ body{
   width: 287px;
   height: 384px;
   margin-left: 115px;
+}
+
+/* section options */
+
+.options{
+  max-width: 952px;
+  min-height: 453px;
+  margin: 120px auto 0;
+}
+
+.options__title{
+  font-size: 36px;
+  font-weight: 700;
+  color: #3E3F43;
+  margin-top: 25px;
+}
+
+.options__block{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 88px;
+}
+
+.options__item{
+  width: 238px;
+  min-height: 177px;
+  text-align: center;
+}
+
+.options__item_title{
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin-top: 24px;
+}
+
+.options__btn{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  width: 212px;
+  height: 50px;
+  padding: 15px 24px;
+  color: #fff;
+  background: #DAA520;
+  border-radius: 4px;
+  transition: all .12s;
+  display: block;
+  margin: 64px auto 0;
+}
+
+.options__btn:hover{
+  background-color: #e8af20;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.63);
 }
